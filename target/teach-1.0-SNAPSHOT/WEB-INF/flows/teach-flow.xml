@@ -1,0 +1,12 @@
+<flow xmlns="http://www.springframework.org/schema/webflow"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.springframework.org/schema/webflow http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
+	
+	<view-state id="teachwebflow" />
+	
+	<!-- As you notice, the above flow has only one state: a view state with id hellowebflow. 
+	View states displays user interface and invites the user to participate in the flow. 
+	So, when the above flow gets executed, Web Flow will look for a JSP page with the name 
+	hellowebflow.jsp under WEB-INF/flows and displays it. -->
+	
+</flow>

@@ -25,6 +25,8 @@
 	<servlet-mapping>
 		<servlet-name>teach</servlet-name>
 		<url-pattern>*.html</url-pattern>
+		<!-- instruct Spring to hanlde flow requests. This is done by adding a url-pattern element to the DispatcherServlet’s servlet-mapping element -->
+		<url-pattern>*.flow</url-pattern>
 	</servlet-mapping>
 
 </web-app>
